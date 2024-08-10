@@ -10,7 +10,7 @@ const test = () => {
 
 <template>
 
-  <div>点我试一下：
+  <div>快点我试一下：
     <a-link @click="test">
       test
     </a-link>

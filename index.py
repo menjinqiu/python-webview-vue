@@ -38,4 +38,4 @@ def get_entrypoint():
 if __name__ == '__main__':
     setup_logging()
     window = webview.create_window('Python Webview Vue', get_entrypoint(), js_api=Api(), width=1100, height=700)
-    webview.start(debug=False)
+    webview.start(debug=True)
